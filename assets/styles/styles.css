@@ -73,3 +73,22 @@ html {
         font-size: 18px;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .header {
+        padding: 1.5rem 2rem;
+    }
+
+    .header__logo {
+        padding-inline: 1rem;
+    }
+
+    .header__menu-link {
+        padding-inline: 1rem;
+    }
+
+    .header__contact {
+        padding-inline: 1rem;
+        margin-left: 1rem;
+    }
+}
